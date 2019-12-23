@@ -17,7 +17,7 @@ public static class HttpTriggerExample
         ILogger log)
     {
         log.LogInformation("C# HTTP trigger function processed a request.");
-
+        //can you???
         string name = req.Query["name"];
         string fortune;
 
